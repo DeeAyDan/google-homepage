@@ -2,10 +2,16 @@
     height: 24px;
 }
 
+header{
+    position: relative;
+}
+
 #nav-bar {
+    position:fixed;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    right: 0;
 }
 
 li {
@@ -26,6 +32,7 @@ li {
     top:100%;
     left:50%;
     transform: translate(-50%, -100%);
+    width:fit-content;
 }
 
 #search-form{
@@ -42,3 +49,7 @@ li {
     top: 0%;
 }
 
+footer {
+    position: fixed;
+    bottom: 0%;
+}
