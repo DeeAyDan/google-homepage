@@ -19,14 +19,13 @@
     width: 100vw;
     height: 100vh;
 }
-
 #google-logo{
+    display: block;
     position: relative;
     top:37.4%;
     left:49.7%;
     transform: translate(-50%, -100%);
 }
-
 #search-bar {
     display: grid;
     position: relative;
@@ -43,4 +42,19 @@
 #search-input{
     opacity: 0%;
 }
+#search-buttons{
+    position: relative;
+    width: 50%;
+    top: 36.5%;
+    left: 45%;
 
+}
+button{
+    position: relative;
+    margin-left: 0%;
+    margin-right: 3.5%;
+    border-width: 0px;
+    font-size: 14px;
+    text-decoration: none;
+    opacity: 80%;
+}
