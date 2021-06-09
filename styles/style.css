@@ -16,8 +16,8 @@
     border-radius: 50%;
 }
 #google-logo-div{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }
 #google-logo{
     display: block;
@@ -57,4 +57,41 @@ button{
     font-size: 14px;
     text-decoration: none;
     opacity: 80%;
+}
+
+#footer-bar{
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+}
+#footer-country{
+    display: block;
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    padding-bottom: 1.5%;
+    padding-left: 1%;
+    opacity: 60%;
+}
+#footer{
+    display: block;
+    padding-bottom: 1.5%;
+    opacity: 60%;
+
+}
+.footer-left {
+    float:left;
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    padding-left: 1%;
+}
+.footer-right{
+    float: right;
+    position: relative;
+    color: inherit;
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 1%;
 }
